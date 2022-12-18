@@ -13,5 +13,8 @@ namespace SOE3MaterialVerwaltung.Models
         public decimal BuyPrice { get; set; }
         [Range(0, 9999999999999999.99)]
         public decimal SellPrice { get; set; }
+
+
+        public virtual Materialgroup Materialgroup { get; set; }
     }
 }

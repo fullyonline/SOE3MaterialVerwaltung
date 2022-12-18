@@ -9,5 +9,7 @@ namespace SOE3MaterialVerwaltung.Models
         public int Id { get; set; }
         [StringLength(255)]
         public string Name { get; set; }
+
+        public virtual ICollection<Material> Materials { get; set;}
     }
 }
