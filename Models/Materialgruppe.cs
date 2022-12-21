@@ -2,7 +2,7 @@
 
 namespace SOE3MaterialVerwaltung.Models
 {
-    public class Materialgroup
+    public class Materialgruppe
     {
 
         [Key]

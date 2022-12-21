@@ -15,6 +15,6 @@ namespace SOE3MaterialVerwaltung.Models
         public decimal SellPrice { get; set; }
 
 
-        public virtual Materialgroup Materialgroup { get; set; }
+        public virtual Materialgruppe Materialgruppe { get; set; }
     }
 }
