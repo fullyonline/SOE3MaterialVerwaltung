@@ -19,6 +19,6 @@ namespace SOE3MaterialVerwaltung.Data
         }
 
         public DbSet<Material> Materials { get; set; }
-        public DbSet<Materialgroup> Materialgroups { get; set; }
+        public DbSet<Materialgruppe> Materialgruppe { get; set; }
     }
 }
